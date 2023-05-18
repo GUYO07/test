@@ -3,7 +3,7 @@ const chalk = require('chalk');
 const debug = require('debug')('app');
 const morgan = require('morgan');
 const path = require('path');
-
+const { SerialPort } = require('serialport')
 const app = express();
 const port = process.env.PORT;
 
