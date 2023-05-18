@@ -7,7 +7,7 @@ const morgan = require('morgan');
 
 app.use(morgan('combind'));
 app.get("/",(req,res)=>{
-    res.send("Hello12345");
+    res.send("Hello");
 })
 
 app.listen(port,()=>{
